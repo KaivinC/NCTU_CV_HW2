@@ -81,12 +81,12 @@ $python test.py --resume={trained model path}
 
 If you want to visualize the prediction result, you can use the module "draw_picture", and the result will in "./picture"
 
-the function: def draw(processed_img, itr, bbox, label, score)
-processed_img is the image dataloader load.
-itr is the number of current image
-bbox is the predicted bounding box
-label is the predicted bounding label
-score is the predicted bounding score
+the function: def draw(processed_img, itr, bbox, label, score)<br>
+processed_img is the image dataloader load.<br>
+itr is the number of current image<br>
+bbox is the predicted bounding box<br>
+label is the predicted bounding label<br>
+score is the predicted bounding score<br>
 
 ## Make Submission
 
